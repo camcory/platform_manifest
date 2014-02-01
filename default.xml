@@ -437,6 +437,7 @@
   <project path="packages/apps/Calendar" name="camcory/packages_apps_Calendar" remote="github" revision="kk-x" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="kk-x" />
+  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
