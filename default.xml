@@ -2,17 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-4.4.2_r1"
-           remote="aosp"
-           sync-j="4" />
-
+           fetch="https://android-review.googlesource.com/" />
   <remote name="cm"
           fetch="http://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
-
   <remote name="github"
           fetch="http://github.com/" />
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-j="4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
