@@ -430,7 +430,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" />
-  <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Browser" name="camcory/platform_packages_apps_browser" remote="github" revision="kk-x" />
   <project path="packages/apps/Calendar" name="camcory/packages_apps_Calendar" remote="github" revision="kk-x" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="kk-x" />
