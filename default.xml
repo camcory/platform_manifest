@@ -301,7 +301,6 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -437,6 +436,7 @@
   <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x" />
   <project path="packages/apps/Email" name="camcory/packages_apps_Email" remote="github" revision="kk-x" />
+  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x" />
   <project path="packages/apps/OmniSwitch" name="camcory/android_packages_apps_OmniSwitch" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
