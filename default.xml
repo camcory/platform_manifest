@@ -18,7 +18,6 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -417,8 +416,9 @@
   <project path="build" name="camcory/platform_build" remote="github" revision="kk-x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
+  <project path="art" name="android_art"  remote="cm" revision="cm-11.0" />
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
+  <project path="dalvik" name="android_dalvik"  remote="cm" revision="cm-11.0" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
