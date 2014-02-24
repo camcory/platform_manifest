@@ -18,6 +18,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
+  <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -294,11 +295,9 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -406,9 +405,8 @@
   <project path="build" name="camcory/platform_build" remote="github" revision="kk-x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="android_art"  remote="cm" revision="cm-11.0" />
+  <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
-  <project path="dalvik" name="android_dalvik"  remote="cm" revision="cm-11.0" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
