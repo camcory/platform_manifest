@@ -35,7 +35,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -409,6 +408,7 @@
   <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
+  <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
