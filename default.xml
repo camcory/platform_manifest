@@ -321,7 +321,6 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
@@ -401,41 +400,48 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Androidx -->
-
   <project path="build" name="camcory/platform_build" remote="github" revision="kk-x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="kk-x" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/Browser" name="camcory/platform_packages_apps_browser" remote="github" revision="kk-x" />
   <project path="packages/apps/Calendar" name="camcory/packages_apps_Calendar" remote="github" revision="kk-x" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="kk-x" />
-  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x" />
   <project path="packages/apps/Email" name="camcory/packages_apps_Email" remote="github" revision="kk-x" />
   <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x" />
   <project path="packages/apps/OmniSwitch" name="camcory/android_packages_apps_OmniSwitch" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
-  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="camcory/packages_apps_UnifiedEmail" remote="github" revision="kk-x" />
   <project path="packages/inputmethods/LatinIME" name="camcory/packages_inputmethods_LatinIME" remote="github" revision="kk-x" />
   <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="kk-x" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x" />
 
+  <!-- Omni -->
+  <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
+  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
+  <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="github" revision="android-4.4" />
+
+  <!-- Cyanogenmod -->
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
+
+  <!-- Slim -->
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
+
+  <!-- ChameleonOS -->
+  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 </manifest>
