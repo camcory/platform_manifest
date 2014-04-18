@@ -425,7 +425,6 @@
 
   <!-- Omni -->
   <project path="art" name="omnirom/android_art" remote="github" revision="android-4.4" />
-  <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="github" revision="android-4.4" />
 
   <!-- Cyanogenmod -->
