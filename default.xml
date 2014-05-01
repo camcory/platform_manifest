@@ -297,7 +297,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -407,6 +406,7 @@
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x" />
   <project path="packages/apps/Email" name="camcory/packages_apps_Email" remote="github" revision="kk-x" />
   <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x" />
+  <project path="packages/apps/Mms" name="camcory/packages_apps_Mms" remote="github" revision="kk-x" />
   <project path="packages/apps/OmniSwitch" name="camcory/android_packages_apps_OmniSwitch" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/UnifiedEmail" name="camcory/packages_apps_UnifiedEmail" remote="github" revision="kk-x" />
