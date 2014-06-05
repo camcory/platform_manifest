@@ -271,7 +271,6 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -406,7 +405,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -431,6 +429,7 @@
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="kk-x" />
+  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="kk-x" />
   <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" />
   <!-- <project path="packages/apps/Browser" name="camcory/platform_packages_apps_browser" remote="github" revision="kk-x" />
   <project path="packages/apps/Calendar" name="camcory/packages_apps_Calendar" remote="github" revision="kk-x" />
@@ -445,6 +444,7 @@
   <project path="packages/inputmethods/LatinIME" name="camcory/packages_inputmethods_LatinIME" remote="github" revision="kk-x" />
   <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="kk-x" /> -->
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
+  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x" />
 
   <!-- Cyanogenmod -->
