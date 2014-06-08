@@ -293,15 +293,11 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -425,11 +421,11 @@
   <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/Browser" name="camcory/platform_packages_apps_browser" remote="github" revision="kk-x" />
   <project path="packages/apps/Calendar" name="camcory/packages_apps_Calendar" remote="github" revision="kk-x" />
-  <!-- <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x" />
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="kk-x" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x" /> -->
   <project path="packages/apps/Email" name="camcory/packages_apps_Email" remote="github" revision="kk-x" />
-  <!-- <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x" /> -->
+  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x" />
   <project path="packages/apps/Mms" name="camcory/packages_apps_Mms" remote="github" revision="kk-x" />
   <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
