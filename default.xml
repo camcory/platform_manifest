@@ -333,7 +333,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -432,7 +431,7 @@
   <project path="packages/apps/UnifiedEmail" name="camcory/packages_apps_UnifiedEmail" remote="github" revision="kk-x" />
   <project path="packages/inputmethods/LatinIME" name="camcory/packages_inputmethods_LatinIME" remote="github" revision="kk-x" />
   <project path="packages/providers/DownloadProvider" name="camcory/platform_packages_providers_DownloadProvider" remote="github" revision="kk-x" />
-  <!-- <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="kk-x" /> -->
+  <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="kk-x" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x" />
