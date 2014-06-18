@@ -333,14 +333,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -416,6 +408,7 @@
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="kk-x" />
+  <project path="frameworks/opt/cards" name="camcory/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="kk-x" />
   <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" />
   <project path="packages/apps/Browser" name="camcory/platform_packages_apps_browser" remote="github" revision="kk-x" />
