@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com" />
   <remote name="cm"
           fetch="http://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
 
