@@ -203,7 +203,6 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -337,7 +336,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -419,12 +417,14 @@
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
   <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
+  <project path="external/skia" name="camcory/platform_external_skia" remote="github" revision="kk-x2" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="kk-x2" />
   <project path="frameworks/opt/cards" name="camcory/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="kk-x" />
   <!-- <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x" /> -->
   <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
+  <project path="packages/providers/MediaProvider" name="camcory/platform_packages_providers_MediaProvider" remote="github" revision="kk-x2" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x" />
@@ -434,6 +434,8 @@
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0"/>
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0"/>
 
   <!-- Slim -->
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
