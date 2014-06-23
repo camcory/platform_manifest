@@ -410,7 +410,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="kk-x" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="kk-x2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
@@ -427,7 +427,7 @@
   <project path="packages/providers/MediaProvider" name="camcory/platform_packages_providers_MediaProvider" remote="github" revision="kk-x2" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x2" />
 
   <!-- Cyanogenmod -->
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
