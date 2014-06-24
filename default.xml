@@ -421,9 +421,7 @@
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="kk-x2" />
   <project path="frameworks/opt/cards" name="camcory/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="kk-x" />
-  <project path="packages/apps/AndroidxSettings" name="camcory/packages_apps_androidx_settings" remote="github" revision="kk-x2" />
-  <!-- <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="kk-x" /> -->
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x2" />
   <project path="packages/providers/MediaProvider" name="camcory/platform_packages_providers_MediaProvider" remote="github" revision="kk-x2" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
