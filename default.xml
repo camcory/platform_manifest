@@ -410,7 +410,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="camcory/platform_bionic" remote="github" revision="kitkat-release" />
-  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x" />
+  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="kk-x2" />
   <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="kk-x" />
   <project path="external/skia" name="camcory/platform_external_skia" remote="github" revision="kk-x2" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="kk-x2" />
