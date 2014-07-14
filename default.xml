@@ -435,6 +435,6 @@
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0"/>
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0"/>
 
-  <!-- Slim -->
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
+  <!-- Omni -->
+  <project path="packages/apps/OmniTorch" name="omnirom/android_packages_apps_OmniTorch" remote="github" revision="android-4.4" />
 </manifest>
