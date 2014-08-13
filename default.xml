@@ -427,6 +427,10 @@
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x2" />
 
+  <!-- AOSP 4.8 Toolchain -->
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
+
   <!-- Cyanogenmod -->
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
