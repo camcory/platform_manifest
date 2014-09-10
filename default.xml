@@ -299,7 +299,6 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -336,7 +335,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -418,10 +416,13 @@
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="kk-x2" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="kk-x2" />
   <project path="packages/apps/Email" name="camcory/packages_apps_Email" remote="github" revision="kk-x2" />
+  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="kk-x2" />
   <project path="packages/apps/Mms" name="camcory/packages_apps_Mms" remote="github" revision="kk-x2" />
+  <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="kk-x" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="kk-x2" />
   <project path="packages/apps/UnifiedEmail" name="camcory/packages_apps_UnifiedEmail" remote="github" revision="kk-x2" />
   <project path="packages/providers/MediaProvider" name="camcory/platform_packages_providers_MediaProvider" remote="github" revision="kk-x2" />
+  <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="kk-x2" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="kk-x" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="kk-x" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="kk-x2" />
