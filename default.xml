@@ -9,7 +9,7 @@
           review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-5.0.0_r5"
+  <default revision="refs/tags/android-5.0.0_r6"
            remote="aosp"
            sync-j="4" />
 
