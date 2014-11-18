@@ -493,10 +493,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX" />
-  <project path="device/lge/mako-kernel" name="camcory/mako-kernel" remote="github" revision="LX" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX" />
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="LX" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX" />
+  <project path="kernel/lge/mako" name="camcory/android_kernel_lge_mako" remote="github" revision="LX" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX" />
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX" />
