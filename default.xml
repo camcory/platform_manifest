@@ -502,4 +502,7 @@
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX" />
 
+  <!-- Omni -->
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-5.0" />
+
 </manifest>
