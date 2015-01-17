@@ -502,6 +502,10 @@
   <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX" />
 
+  <!-- CyanogenMod -->
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.0" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-12.0" />
+
   <!-- Omni -->
   <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-5.0" />
 
