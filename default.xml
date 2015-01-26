@@ -4,9 +4,6 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com" />
-  <remote name="cm"
-          fetch="http://github.com/CyanogenMod"
-          review="review.cyanogenmod.com" />
   <remote name="github"
           fetch="http://github.com/" />
   <default revision="refs/tags/android-5.0.2_r1"
@@ -42,6 +39,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -274,6 +272,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -488,25 +487,14 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="LX" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="LX-RRO" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX" />
-  <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="LX" />
-  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX" />
-  <project path="kernel/lge/mako" name="camcory/android_kernel_lge_mako" remote="github" revision="LX" />
-  <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="LX" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX" />
-  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX" />
-  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX" />
-
-  <!-- CyanogenMod -->
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-12.0" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-12.0" />
-
-  <!-- Omni -->
-  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-5.0" />
-
+  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-RRO" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-RRO" />
+  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-RRO" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-RRO" />
+  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX-RRO" />
+  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX-RRO" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-RRO" />
 </manifest>
