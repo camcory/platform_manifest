@@ -483,19 +483,19 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="LX-RRO" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="LX-layers" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-RRO" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-RRO" />
-  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-RRO" />
-  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-RRO" />
-  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-RRO" />
-  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-RRO" />
-  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="LX-RRO" />
+  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-layers" />
+  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-layers" />
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-layers" />
+  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-layers" />
+  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-layers" />
+  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="LX-layers" />
   <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="LX" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-RRO" />
-  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX-RRO" />
-  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX-RRO" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-RRO" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-layers" />
+  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX-layers" />
+  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX-layers" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-layers" />
 </manifest>
