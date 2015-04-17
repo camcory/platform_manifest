@@ -22,7 +22,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -491,6 +490,7 @@
   <project path="build" name="camcory/platform_build" remote="github" revision="LX-layers" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/asus/grouper" name="camcory/device_asus_grouper" remote="github" revision="LX-layers" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-layers" />
