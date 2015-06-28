@@ -6,7 +6,7 @@
           review="android-review.googlesource.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-5.1.1_r1"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
@@ -40,6 +40,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -442,7 +443,7 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
@@ -492,6 +493,7 @@
   </project>
   <project path="device/asus/grouper" name="camcory/device_asus_grouper" remote="github" revision="LX-layers" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1" />
   <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-layers" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-layers" />
