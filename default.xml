@@ -506,4 +506,5 @@
   <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="LX" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-5.1" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-layers" />
+  <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="LX-5.1" />
 </manifest>
