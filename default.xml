@@ -6,7 +6,7 @@
           review="android-review.googlesource.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-5.1.1_r6"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-j="4" />
 
@@ -467,6 +467,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -503,7 +505,5 @@
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="LX-layers" />
   <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="LX" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-5.1" />
-  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="LX-layers" />
-  <project path="system/extras" name="camcory/platform_system_extras" remote="github" revision="LX-layers" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-layers" />
 </manifest>
