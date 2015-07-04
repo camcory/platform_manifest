@@ -39,7 +39,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -327,6 +326,7 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
@@ -490,21 +490,17 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="LX-layers" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="LX-5.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/asus/grouper" name="camcory/device_asus_grouper" remote="github" revision="LX-layers" />
-  <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1" />
-  <project path="hardware/qcom/display" name="camcory/platform_hardware_qcom_display" remote="github" revision="LX-layers" />
-  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-layers" />
-  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-layers" />
-  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-layers" />
-  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="LX-layers" />
-  <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="LX-layers" />
-  <project path="packages/apps/ScreenRecorder" name="camcory/android_packages_apps_ScreenRecorder" remote="github" revision="LX" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-5.1" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-layers" />
-  <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="LX-5.1" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1.1" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/InCallUI" name="camcory/platform_packages_apps_InCallUI" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="LX-5.1.1" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="LX-5.1.1" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-5.1.1" />
+  <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="LX-5.1.1" />
 </manifest>
