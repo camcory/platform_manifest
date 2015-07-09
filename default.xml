@@ -388,7 +388,6 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -503,4 +502,7 @@
   <project path="packages/services/Telephony" name="camcory/platform_packages_services_telephony" remote="github" revision="LX-5.1.1" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-5.1.1" />
   <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="LX-5.1.1" />
+
+  <!-- Euphoria -->
+  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop-5.1" />
 </manifest>
