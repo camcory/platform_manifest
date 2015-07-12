@@ -503,6 +503,9 @@
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="LX-5.1.1" />
   <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="LX-5.1.1" />
 
+  <!-- CyanogenMod -->
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.1" />
+
   <!-- Euphoria -->
   <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop-5.1" />
 </manifest>
