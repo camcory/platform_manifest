@@ -6,7 +6,7 @@
           review="android-review.googlesource.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-5.1.1_r5"
+  <default revision="refs/tags/android-5.1.1_r9"
            remote="aosp"
            sync-j="4" />
 
@@ -268,6 +268,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -287,13 +288,10 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -493,8 +491,10 @@
   </project>
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1.1" />
-  <project path="frameworks/av" name="camcory/platform_frameworks_av" remote="github" revision="LX-5.1.1" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1.1" />
+  <project path="frameworks/opt/net/ims" name="camcory/platform_frameworks_opt_net_ims" remote="github" revision="master" />
+  <project path="frameworks/opt/net/wifi" name="camcory/platform_frameworks_opt_net_wifi" remote="github" revision="master" />
+  <project path="frameworks/opt/telephony" name="camcory/platform_frameworks_opt_telephony" remote="github" revision="master" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-5.1.1" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-5.1.1" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="LX-5.1.1" />
