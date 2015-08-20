@@ -268,7 +268,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -493,6 +492,7 @@
   </project>
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1.1" />
+  <project path="frameworks/av" name="camcory/platform_frameworks_av" remote="github" revision="LX-5.1.1" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="LX-5.1.1" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="LX-5.1.1" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="LX-5.1.1" />
