@@ -12,7 +12,6 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -489,6 +488,7 @@
   <project path="build" name="camcory/platform_build" remote="github" revision="LX-5.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="camcory/platform_bionic" remote="github" revision="LX-5.1.1" />
   <project path="device/lge/mako" name="camcory/device_lge_mako" remote="github" revision="LX-layers" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="LX-5.1.1" />
   <project path="frameworks/av" name="camcory/platform_frameworks_av" remote="github" revision="LX-5.1.1" />
