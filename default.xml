@@ -471,6 +471,6 @@
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="M-X" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="M-X" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="M-X" />
-  <!-- <project path="vendor/motorola" name="camcory/proprietary_vendor_motorola" remote="github" revision="M-X" /> -->
+  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="M-X" />
 
 </manifest>
