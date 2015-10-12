@@ -473,4 +473,7 @@
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="M-X" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="M-X" />
 
+  <!-- Cyanogenmod -->
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+
 </manifest>
