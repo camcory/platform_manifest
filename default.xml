@@ -6,7 +6,7 @@
           review="android-review.googlesource.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-6.0.0_r26"
+  <default revision="refs/tags/android-6.0.0_r5"
            remote="aosp"
            sync-j="4" />
 
@@ -214,7 +214,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -340,8 +339,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
@@ -440,7 +437,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -464,14 +460,18 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="M-X" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="MX" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="M-X" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="M-X" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="M-X" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="M-X" />
-  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="M-X" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="MX" />
+  <project path="external/sepolicy" name="camcory/platform_external_sepolicy" remote="github" revision="MX" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="MX" />
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="MX" />
+  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="MX" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="MX" />
+  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="MX" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="MX" />
+  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="MX" />
 
   <!-- Cyanogenmod -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
