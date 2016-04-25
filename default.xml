@@ -476,9 +476,7 @@
 
   <!-- Dirty Unicorns -->
   <project path="external/android-visualizer" name="DirtyUnicorns/android_external_android-visualizer" remote="github" revision="m" />
-
-  <!-- Cyanogenmod -->
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+  <project path="external/busybox" name="DirtyUnicorns/android_external_busybox" remote="github" revision="m" />
 
   <!-- PureNexusProject -->
   <project path="packages/inputmethods/LatinIME" name="PureNexusProject/android_packages_inputmethods_LatinIME" remote="github" revision="mm" />
