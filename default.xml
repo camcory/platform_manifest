@@ -479,6 +479,6 @@
   <project path="external/busybox" name="DirtyUnicorns/android_external_busybox" remote="github" revision="m" />
 
   <!-- PureNexusProject -->
-  <project path="packages/inputmethods/LatinIME" name="PureNexusProject/android_packages_inputmethods_LatinIME" remote="github" revision="mm" />
+  <project path="packages/inputmethods/LatinIME" name="PureNexusProject/android_packages_inputmethods_LatinIME" remote="github" revision="mm2" />
 
 </manifest>
