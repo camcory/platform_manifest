@@ -8,7 +8,8 @@
           fetch="http://github.com/" />
   <default revision="refs/tags/android-6.0.1_r49"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="16" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
