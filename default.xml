@@ -471,6 +471,7 @@
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="m" />
   <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="m" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="m" />
+  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="m" />
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="m" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="oms3" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="m" />
@@ -478,8 +479,5 @@
   <!-- Dirty Unicorns -->
   <project path="external/android-visualizer" name="DirtyUnicorns/android_external_android-visualizer" remote="github" revision="m" />
   <project path="external/busybox" name="DirtyUnicorns/android_external_busybox" remote="github" revision="m" />
-
-  <!-- PureNexusProject -->
-  <project path="packages/inputmethods/LatinIME" name="PureNexusProject/android_packages_inputmethods_LatinIME" remote="github" revision="mm2" />
 
 </manifest>
