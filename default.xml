@@ -294,7 +294,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -409,7 +408,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -487,7 +485,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
@@ -509,10 +506,13 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="m" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="m" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="m" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="n" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="n" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="n" />
+  <project path="system/sepolicy" name="camcory/platform_system_sepolicy" remote="github" revision="n" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="n" />
 
 </manifest>
