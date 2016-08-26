@@ -473,7 +473,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -512,6 +511,7 @@
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="n" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="n" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="n" />
+  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="n" />
   <project path="system/sepolicy" name="camcory/platform_system_sepolicy" remote="github" revision="n" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="n" />
 
