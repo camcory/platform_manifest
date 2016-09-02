@@ -503,6 +503,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="n" />
+  <project path="external/busybox" name="camcory/android_external_busybox" remote="github" revision="n" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="n" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="n" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="n" />
