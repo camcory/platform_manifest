@@ -515,6 +515,6 @@
   <project path="system/core" name="camcory/platform_system_core" remote="github" revision="n" />
   <project path="system/sepolicy" name="camcory/platform_system_sepolicy" remote="github" revision="n" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="n" />
-  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="m" />
+  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="n" />
 
 </manifest>
