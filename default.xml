@@ -504,11 +504,13 @@
   </project>
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="n" />
   <project path="external/busybox" name="camcory/android_external_busybox" remote="github" revision="n" />
+  <project path="external/DUtils" name="camcory/android_external_DUtils" remote="github" revision="n" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="n" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="n" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="n" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="n" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="n" />
+  <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="n" />
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="n" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="n" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="n" />
