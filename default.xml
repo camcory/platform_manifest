@@ -476,6 +476,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -512,7 +513,6 @@
   </project>
   <project path="art" name="camcory/platform_art" remote="github" revision="N" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="N" />
-  <project path="external/busybox" name="camcory/android_external_busybox" remote="github" revision="n" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="N" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="N" />
@@ -521,7 +521,6 @@
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="N" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="N" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="N" />
-  <project path="system/core" name="camcory/platform_system_core" remote="github" revision="N" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="N" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="n" />
 
