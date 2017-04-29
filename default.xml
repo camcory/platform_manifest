@@ -313,7 +313,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -402,7 +401,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -496,7 +494,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
@@ -524,15 +521,19 @@
   </project>
   <project path="art" name="camcory/platform_art" remote="github" revision="N" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="N" />
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="N" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="oms-N" />
+  <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="N" />
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="N" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="N" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="N" />
+  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="N" />
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="N" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="N" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="oms-N" />
+  <project path="packages/apps/ThemeInterfacer" name="camcory/interfacer" remote="github" revision="oms-N" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="N" />
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="N" />
+  <project path="system/sepolicy" name="camcory/platform_system_sepolicy" remote="github" revision="oms-N" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="oms-N" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="n" />
 
 </manifest>
