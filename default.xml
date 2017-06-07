@@ -516,24 +516,24 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
 
   <!-- Androidx -->
-  <project path="build" name="camcory/platform_build" remote="github" revision="N" >
+  <project path="build" name="camcory/platform_build" remote="github" revision="oms-N" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="camcory/platform_art" remote="github" revision="N" />
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="N" />
+  <project path="art" name="camcory/platform_art" remote="github" revision="oms-N" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="oms-N" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="oms-N" />
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
-  <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="N" />
-  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="N" />
-  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="N" />
-  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="N" />
-  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="N" />
-  <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="N" />
+  <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="oms-N" />
+  <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="oms-N" />
+  <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="oms-N" />
+  <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="oms-N" />
+  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="oms-N" />
+  <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="oms-N" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="oms-N" />
   <project path="packages/apps/ThemeInterfacer" name="camcory/interfacer" remote="github" revision="oms-N" />
-  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="N" />
+  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="oms-N" />
   <project path="system/sepolicy" name="camcory/platform_system_sepolicy" remote="github" revision="oms-N" />
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="oms-N" />
-  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="n" />
+  <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="oms-N" />
 
 </manifest>
