@@ -6,7 +6,7 @@
           review="android-review.googlesource.com" />
   <remote name="github"
           fetch="http://github.com/" />
-  <default revision="refs/tags/android-7.1.2_r19"
+  <default revision="refs/tags/android-7.1.2_r28"
            remote="aosp"
            sync-c="true"
            sync-j="16" />
@@ -27,7 +27,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -241,7 +241,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
