@@ -48,7 +48,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk,generic_fs,pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -520,6 +519,7 @@
   </project>
   <project path="art" name="camcory/platform_art" remote="github" revision="oms-N" />
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="oms-N" />
+  <project path="device/moto/shamu-kernel" name="camcory/device_moto_shamu-kernel" remote="github" revision="oms-N" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="oms-N" />
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="oms-N" />
