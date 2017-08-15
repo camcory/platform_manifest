@@ -527,6 +527,8 @@
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="oms-N" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="oms-N" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="oms-N" />
+  <project path="packages/apps/OmniSubs" name="camcory/android_packages_apps_OmniSubs" remote="github" revision="oms-N" />
+  <project path="packages/apps/OmniTheme" name="camcory/android_packages_apps_OmniTheme" remote="github" revision="oms-N" />
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="oms-N" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="oms-N" />
   <project path="packages/apps/ThemeInterfacer" name="camcory/interfacer" remote="github" revision="oms-N" />
