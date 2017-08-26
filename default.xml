@@ -381,7 +381,6 @@
   <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -569,6 +568,7 @@
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="oms-N" />
 -->
+  <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="O" />
   <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
 <!--
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="oms-N" />
