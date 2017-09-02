@@ -404,7 +404,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -571,7 +570,9 @@
   <project path="packages/apps/Contacts" name="camcory/platform_packages_apps_contacts" remote="github" revision="oms-N" />
   <project path="packages/apps/ContactsCommon" name="camcory/platform_packages_apps_contacts_common" remote="github" revision="oms-N" />
   <project path="packages/apps/Dialer" name="camcory/platform_packages_apps_dialer" remote="github" revision="oms-N" />
-  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="oms-N" />
+-->
+  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="O" />
+<!--
   <project path="packages/apps/OmniSubs" name="camcory/android_packages_apps_OmniSubs" remote="github" revision="oms-N" />
   <project path="packages/apps/OmniTheme" name="camcory/android_packages_apps_OmniTheme" remote="github" revision="oms-N" />
   <project path="packages/apps/PhoneCommon" name="camcory/platform_packages_apps_PhoneCommon" remote="github" revision="oms-N" />
