@@ -358,7 +358,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,pdk" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
@@ -564,6 +563,7 @@
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="oms-N" />
 -->
+  <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="O" />
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="O" />
   <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
 <!--
