@@ -42,4 +42,7 @@
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="O" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
 
+  <!-- DU repo -->
+  <project path="external/wpa_supplicant_8" name="DirtyUnicorns/android_external_wpa_supplicant_8" remote="github" revision="o8x" />
+
 </manifest>
