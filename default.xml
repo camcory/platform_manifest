@@ -392,7 +392,6 @@
   <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" />
   <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
@@ -579,6 +578,7 @@
   <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="oms-N" />
   <project path="frameworks/support" name="camcory/platform_frameworks_support" remote="github" revision="oms-N" />
 -->
+  <project path="hardware/qcom/msm8x84" name="camcory/platform_hardware_qcom_msm8x84" remote="github" revision="O" />
   <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="O" />
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="O" />
   <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
