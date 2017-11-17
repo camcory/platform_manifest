@@ -28,10 +28,11 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="Ox" />
+  <project path="hardware/qcom/msm8x84" name="camcory/platform_hardware_qcom_msm8x84" remote="github" revision="Ox" />
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="Ox" />
 
   <!-- Kernel -->
-  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="Ox" />
+  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="Ox" />
