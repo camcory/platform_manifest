@@ -6,7 +6,7 @@
            fetch="https://github.com/" />
 
   <!-- Build -->
-  <project path="build/make" name="camcory/platform_build" remote="github" revision="O" >
+  <project path="build/make" name="camcory/platform_build" remote="github" revision="Ox" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -15,34 +15,31 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="camcory/platform_build_soong" remote="github" revision="O" >
+  <project path="build/soong" name="camcory/platform_build_soong" remote="github" revision="Ox" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Device -->
-  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="O" />
+  <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="Ox" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="O" />
+  <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="Ox" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="O" />
-  <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="O" />
+  <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="Ox" />
+  <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="Ox" />
 
   <!-- Kernel -->
-  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
+  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="Ox" />
 
   <!-- Packages -->
-  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="O" />
-  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="O" />
-  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="O" />
+  <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="Ox" />
+  <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="Ox" />
+  <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="Ox" />
 
   <!-- Vendor -->
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="O" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
-
-  <!-- DU repo -->
-  <project path="external/wpa_supplicant_8" name="DirtyUnicorns/android_external_wpa_supplicant_8" remote="github" revision="o8x" />
 
 </manifest>
