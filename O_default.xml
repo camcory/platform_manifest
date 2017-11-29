@@ -40,7 +40,7 @@
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="Ox" />
 
   <!-- Vendor -->
-  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="O" />
+  <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="Ox" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
 
 </manifest>
