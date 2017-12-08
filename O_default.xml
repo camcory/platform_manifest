@@ -23,8 +23,8 @@
   <!-- Device -->
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="Ox" />
 
-  <!-- External
-  <project path="external/DUtils" name="camcory/android_external_DUtils" remote="github" revision="Ox" /> -->
+  <!-- External -->
+  <project path="external/DUtils" name="camcory/android_external_DUtils" remote="github" revision="Ox" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="Ox" />
@@ -37,8 +37,8 @@
   <!-- Kernel -->
   <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
 
-  <!-- Packages
-  <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="Ox" /> -->
+  <!-- Packages -->
+  <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="Ox" />
   <project path="packages/apps/Launcher3" name="camcory/platform_packages_apps_Launcher3" remote="github" revision="Ox" />
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="Ox" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="Ox" />
