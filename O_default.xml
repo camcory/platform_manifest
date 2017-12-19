@@ -27,7 +27,9 @@
   <project path="external/DUtils" name="camcory/android_external_DUtils" remote="github" revision="Ox" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="camcory/platform_frameworks_av" remote="github" revision="Ox" />
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="Ox" />
+  <project path="frameworks/native" name="camcory/platform_frameworks_native" remote="github" revision="Ox" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="Ox" />

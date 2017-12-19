@@ -52,7 +52,9 @@
   <remove-project name="device/sample" />
 
   <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/intel/audio_media" />
