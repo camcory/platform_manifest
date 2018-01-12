@@ -44,6 +44,9 @@
   <project path="packages/apps/Settings" name="camcory/platform_packages_apps_settings" remote="github" revision="Ox" />
   <project path="packages/inputmethods/LatinIME" name="camcory/android_packages_inputmethods_LatinIME" remote="github" revision="Ox" />
 
+  <!-- System -->
+  <project path="system/nfc" name="camcory/android_platform_system_nfc" remote="github" revision="Ox" />
+
   <!-- Vendor -->
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="Ox" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
