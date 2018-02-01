@@ -20,6 +20,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bootable/recovery" name="camcory/platform_bootable_recovery" remote="github" revision="Ox" />
+
   <!-- Device -->
   <project path="device/moto/shamu" name="camcory/device_moto_shamu" remote="github" revision="Ox" />
 
