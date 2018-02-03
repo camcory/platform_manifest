@@ -38,7 +38,7 @@
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="Ox" />
 
   <!-- Kernel -->
-  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="O" />
+  <project path="kernel/moto/shamu" name="camcory/android_kernel_moto_shamu" remote="github" revision="Ox" />
 
   <!-- Packages -->
   <project path="packages/apps/DUI" name="camcory/android_packages_apps_DUI" remote="github" revision="Ox" />
