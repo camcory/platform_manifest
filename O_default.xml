@@ -52,7 +52,6 @@
 
   <!-- Vendor -->
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="Ox" />
-  <project path="vendor/gapps" name="camcory/vendor_gapps" remote="github" revision="master" />
   <project path="vendor/huawei/berkeley" name="camcory/proprietary_vendor_huawei_berkeley" remote="github" revision="aosip" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
 
