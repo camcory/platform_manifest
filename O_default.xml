@@ -52,7 +52,7 @@
 
   <!-- Vendor -->
   <project path="vendor/androidx" name="camcory/vendor_androidx" remote="github" revision="Ox" />
-  <project path="vendor/huawei/berkeley" name="camcory/proprietary_vendor_huawei_berkeley" remote="github" revision="aosip" />
+  <project path="vendor/huawei/berkeley" name="camcory/proprietary_vendor_huawei_berkeley" remote="github" revision="Ox" />
   <project path="vendor/moto" name="camcory/proprietary_vendor_motorola" remote="github" revision="O" />
 
 </manifest>
