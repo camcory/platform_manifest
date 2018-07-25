@@ -33,7 +33,9 @@
   <project path="frameworks/base" name="camcory/platform_frameworks_base" remote="github" revision="Ox" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="camcory/platform_hardware_interfaces" remote="github" revision="Ox" />
+  <project path="hardware/custom/interfaces" name="camcory/platform_hardware_custom_interfaces" remote="github" revision="Ox" >
+    <copyfile dest="hardware/custom/Android.bp" src="Android.bp"/>
+  </project>
   <project path="hardware/qcom/msm8x84" name="camcory/platform_hardware_qcom_msm8x84" remote="github" revision="Ox" />
   <project path="hardware/ril" name="camcory/platform_hardware_ril" remote="github" revision="Ox" />
 
