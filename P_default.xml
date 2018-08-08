@@ -37,6 +37,7 @@
   <project path="hardware/custom/interfaces" name="platform_hardware_custom_interfaces" remote="github" >
     <copyfile dest="hardware/custom/Android.bp" src="Android.bp"/>
   </project>
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="github" />
   <project path="hardware/qcom/msm8x84" name="platform_hardware_qcom_msm8x84" remote="github" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="github" />
 
