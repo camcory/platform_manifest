@@ -704,6 +704,6 @@
   <include name="remove.xml" />
 
   <!-- Add all tracked repos -->
-  <include name="O_default.xml" />
+  <include name="P_default.xml" />
 
 </manifest>
