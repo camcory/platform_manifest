@@ -30,8 +30,8 @@
   <!-- External
   <project path="external/DUtils" name="android_external_DUtils" remote="github" /> -->
 
-  <!-- Frameworks
-  <project path="frameworks/av" name="platform_frameworks_av" remote="github" /> -->
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
 
   <!-- Hardware -->

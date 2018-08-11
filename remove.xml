@@ -48,8 +48,8 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
-  <!-- Framework repos
-  <remove-project name="platform/frameworks/av" /> -->
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware repos -->
