@@ -32,6 +32,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="github" />
 
   <!-- Hardware -->
   <project path="hardware/custom/interfaces" name="platform_hardware_custom_interfaces" remote="github" >
