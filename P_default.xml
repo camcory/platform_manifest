@@ -26,20 +26,17 @@
   <!-- Device -->
   <project path="device/moto/shamu" name="device_moto_shamu" remote="github" />
 
-  <!-- External
-  <project path="external/DUtils" name="android_external_DUtils" remote="github" /> -->
-
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="github" />
 
   <!-- Hardware -->
-  <project path="hardware/custom/interfaces" name="platform_hardware_custom_interfaces" remote="github" >
-    <copyfile dest="hardware/custom/Android.bp" src="Android.bp"/>
-  </project>
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="github" />
+  <project path="hardware/lineage/interfaces" name="platform_hardware_custom_interfaces" remote="github" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="github" />
   <project path="hardware/qcom/msm8x84" name="platform_hardware_qcom_msm8x84" remote="github" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="github" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="github" />
 
   <!-- Kernel -->
@@ -47,10 +44,8 @@
 
   <!-- Packages -->
   <project path="packages/apps/Dialer" name="platform_packages_apps_dialer" remote="github" />
-  <!-- <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="github" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" /> -->
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="github" />
-  <!-- <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" /> -->
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" />
 
   <!-- System -->
   <project path="system/nfc" name="android_platform_system_nfc" remote="github" />
