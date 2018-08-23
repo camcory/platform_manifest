@@ -6,6 +6,11 @@
            revision="p"
            fetch="https://github.com/camcory/" />
 
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           revision="p"
+           fetch="https://gitlab.com/camcory1/" />
+
   <!-- Build -->
   <project path="build/make" name="platform_build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -30,6 +35,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="github" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="github" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="github" />
