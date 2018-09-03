@@ -38,11 +38,9 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="github" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="github" />
-  <project path="hardware/lineage/interfaces" name="platform_hardware_custom_interfaces" remote="github" />
+  <project path="hardware/custom/interfaces" name="platform_hardware_custom_interfaces" remote="github" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="github" />
   <project path="hardware/qcom/msm8x84" name="platform_hardware_qcom_msm8x84" remote="github" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="github" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="github" />
 
   <!-- Kernel -->
