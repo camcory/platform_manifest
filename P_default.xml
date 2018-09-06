@@ -53,7 +53,6 @@
 
   <!-- Vendor -->
   <project path="vendor/androidx" name="vendor_androidx" remote="github" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="gitlab" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="github" />
 
 </manifest>
