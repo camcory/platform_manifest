@@ -36,6 +36,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="los" />
