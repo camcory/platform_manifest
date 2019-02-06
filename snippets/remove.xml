@@ -49,7 +49,9 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
 
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/opencv" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 

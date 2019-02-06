@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="external/skia" name="android_external_skia" remote="los" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="los" />
