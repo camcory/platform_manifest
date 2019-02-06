@@ -12,6 +12,10 @@
            fetch="https://github.com/AOSiP"
            revision="refs/heads/oreo-mr1" />
 
+  <remote  name="camcory"
+           fetch="https://github.com/camcory"
+           revision="refs/heads/oreo-mr1" />
+
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices" 
            revision="refs/heads/oreo-mr1" />
