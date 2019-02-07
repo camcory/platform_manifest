@@ -24,6 +24,7 @@
   </project>
 
   <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="camcory" />
   <project path="device/qcom/common" name="device_qcom_common" remote="aosip" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aosip" />
 
@@ -44,6 +45,9 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="aosip" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
+  <project path="hardware/qcom/msm8x84" name="platform_hardware_qcom_msm8x84" remote="camcory" />
+
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="camcory" />
 
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="aosip" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_contacts" remote="camcory" />
@@ -82,6 +86,7 @@
 
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="camcory" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="camcory" />
 <!--
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
