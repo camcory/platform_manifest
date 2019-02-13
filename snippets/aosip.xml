@@ -2,10 +2,6 @@
 <manifest>
 
   <!-- AOSiP -->
-
-  <project path="updater" name="updater" remote="aosip" revision="master" />
-  <project path="manifest" name="platform_manifest" remote="camcory" />
-
   <project path="bionic" name="platform_bionic" remote="aosip" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aosip" />
   <project path="build/kati" name="platform_build_kati" remote="aosip" />
@@ -46,6 +42,7 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="aosip" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="aosip" />
   <project path="hardware/qcom/msm8x84" name="platform_hardware_qcom_msm8x84" remote="camcory" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="camcory" />
 
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="camcory" />
 
@@ -63,15 +60,12 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="camcory" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="camcory" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aosip" />
-  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="aosip" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="aosip" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="aosip" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="aosip" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="aosip" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip" />
-<!--
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" clone-depth="1" remote="aosip" />
--->
+
   <project path="system/bt" name="platform_system_bt" remote="camcory" />
   <project path="system/core" name="platform_system_core" remote="aosip" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
@@ -81,18 +75,8 @@
   <project path="system/nfc" name="android_platform_system_nfc" remote="camcory" />
   <project path="system/qcom" name="platform_system_qcom" remote="aosip" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="aosip" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="aosip" />
   <project path="system/vold" name="platform_system_vold" remote="aosip" />
 
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="camcory" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="camcory" />
-<!--
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="aosip" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
-  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="aosip" />
--->
 </manifest>
