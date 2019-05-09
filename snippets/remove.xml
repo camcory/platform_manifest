@@ -58,6 +58,7 @@
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <remove-project name="platform/frameworks/av" />
@@ -140,6 +141,7 @@
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hwservicemanager" />

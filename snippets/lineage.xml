@@ -9,6 +9,7 @@
   <project path="external/skia" name="android_external_skia" remote="los" />
   <project path="external/sqlite" name="android_external_sqlite" remote="los" />
   <project path="external/tremolo" name="android_external_tremolo" remote="los" />
+  <project path="external/v8" name="android_external_v8" remote="los" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="los" />
 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
@@ -22,5 +23,6 @@
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="los" />
   <project path="system/libhidl" name="android_system_libhidl" remote="los" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="los" />
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="los" />
 
 </manifest>
