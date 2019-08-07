@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="los" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="los" />
   <project path="external/libavc" name="android_external_libavc" remote="los" />
   <project path="external/libhevc" name="android_external_libhevc" remote="los" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="los" />
   <project path="external/sfntly" name="android_external_sfntly" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" />
   <project path="external/sqlite" name="android_external_sqlite" remote="los" />
@@ -22,7 +24,7 @@
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="los" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 
-
+  <project path="system/gatekeeper" name="android_system_gatekeeper" remote="los" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="los" />
   <project path="system/libhidl" name="android_system_libhidl" remote="los" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="los" />
